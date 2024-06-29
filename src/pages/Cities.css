@@ -1,0 +1,57 @@
+.cities-card {
+  max-height: 100vh;
+  overflow-y: auto;
+  margin: 20px auto;
+  width: 90%;
+  max-width: 600px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.card-header {
+  background-color: #007bff;
+  color: white;
+  padding: 15px;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+}
+
+.city-search-input {
+  width: 80%;
+  margin: 0 auto;
+  padding: 10px;
+  border-radius: 20px;
+  border: none;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+}
+
+.cities-list {
+  padding: 20px;
+}
+
+.city-item {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  padding: 10px 0;
+  border-bottom: 1px solid #ddd;
+}
+
+.city-id {
+  font-weight: bold;
+  margin-right: 10px;
+}
+
+.city-name {
+  font-size: 1.1rem;
+  color: #007bff;
+  text-decoration: none;
+}
+
+.city-name:hover {
+  text-decoration: underline;
+}
+
+.city-item:last-child {
+  border-bottom: none;
+}
